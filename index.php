@@ -8,10 +8,28 @@
 </head>
 
 <body>
-	<h1>Hello World</h1>
-	<?php
-	echo "Hello World";
-	?>
+	<h1>
+		<?php
+		echo "Hello World";
+		?>
+	</h1>
+
+	<p>
+		<?php
+		echo "Havia um homem que era um gato";
+		?>
+	</p>
+
+	<div>
+		<?php
+		$saudacao = "Oi";
+		$numero = 10;
+		for ($i = 0; $i < $numero; $i++) {
+			echo ("<p>{$saudacao} - {$i}</p>");
+		}
+		?>
+	</div>
+
 </body>
 
 </html>
