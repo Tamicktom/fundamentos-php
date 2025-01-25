@@ -1,3 +1,7 @@
+<?php
+include "./hero.php";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -9,8 +13,11 @@
 </head>
 
 <body class="bg-gray-100">
-
+	<?php include "./header.php"; ?>
+	<?php hero("Fundamentos do PHP"); ?>
 	<?php include "./footer.php"; ?>
+	<?php $banana = "Banana"; ?>
+	<?= $banana ?>
 </body>
 
 </html>
